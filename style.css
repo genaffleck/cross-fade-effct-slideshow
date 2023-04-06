@@ -38,7 +38,9 @@ p, #links {
   height: 50px;
   display: flex;
   margin: auto;
-  font: white;
+  color: white;
+  text-align: center;
+  justify-content: center;
 }
 
 #previous, #next{
@@ -57,10 +59,10 @@ p, #links {
   padding: 0;
 }
 
-
 #links a:hover{
   background: #a51d1f;
   color: #ffffff;
+  text-decoration: none;
 }
 
 .author {
